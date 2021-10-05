@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peminjaman Alat</title>
+    <style>
+        #tab{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            border: 1px solid black;
+        }
+
+        div.luar{
+            margin: auto;
+            border: 5px outset burlywood;
+            top: 30%;
+            width: 30%;
+            background-color: beige;
+        }
+
+        .form{
+            text-align: center;
+        }
+
+        body{
+            font-family: "Lucida handwriting";
+            font-size: small;
+            background-image: url('img/gambarTugas2.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        button{
+            margin-left: 70%;
+        }
+    </style>
+</head>
+<body>
+<br>
+    <div class="luar">
+        <h2 class="form">Form Penminjaman Alat Tulis</h2>
+        <form action="detail.html" method="GET">
+            <table id="tab">
+                <tr>
+                    <th>Nama    : <input type="text" name="nama"> </th> 
+                </tr>
+                <tr>
+                    <th>Alamat  : <input type="text" name="alamat"> </th>
+                </tr>
+                <tr>
+                    <th>NIK     : <input type="text" name="nik"> </th>
+                </tr>
+                <tr>
+                    <th>
+                        List Alat Yang ingin dipinjam : <br>
+                            <input type="checkbox" name="pensil"> <label for="it1">pensil</label><br> 
+                            <input type="checkbox" name="spidol"> <label for="it1">spidol</label><br>
+                            <input type="checkbox" name="penghapus"> <label for="it1">pegnhapus</label><br>
+                            <input type="checkbox" name="proyektor"> <label for="it1">proyektor</label> 
+                    </th>
+                </tr>
+            </table>
+            <button type="submit">Cek Status!</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>

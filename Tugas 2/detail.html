@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: url('img/gambarTugas2.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th{
+            border: 2px solid #ddd;
+            padding: 8px;
+            background-color: darkcyan;
+            color: gainsboro;
+        }
+
+        td{
+            border: 2px solid #ddd;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        #no{
+            text-align: center;
+        }
+        p{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            font-family: "Lucida handwriting";
+        }
+        div{
+            background-color: ghostwhite;
+            border: 5px outset burlywood;
+            top: 30%;
+            width: 30%;
+            margin: auto;
+            padding: 12px;
+        }
+    </style>
+    <title>Detail Peminjaman</title>
+</head>
+<body>
+    <br>
+    <div>
+        <p>Detail peminjaman alat</p>
+
+        <table method="GET">
+            <tr class="head">
+                <th>No. </th>
+                <th>Nama Peminjam</th>
+                <th>NIK</th>
+                <th>Alat yang dipinjam</th>
+            </tr>
+    
+            <tr>
+                <td id="no">1.</td>
+                <td>Akmal Fauzan S</td>
+                <td>21231231</td>
+                <td>
+                    <ul>
+                        <li>pensil</li>
+                        <li>proyektor</li>
+                        <li>penghapus</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    
+</body>
+</html>
